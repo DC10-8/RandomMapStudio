@@ -1,0 +1,42 @@
+Random Map Studio — 日本語 / English
+
+【日本語】
+新規ゲームを開始した後、UUIからランダムな地形候補を選んで作成するCities: Skylines 1専用MODです。陸地・海・山地の割合と川の有無を指定できます。
+
+操作方法
+1. 本MODとUnified UIを有効にし、「新規ゲーム」でマップを選び「スタート」を押します。
+2. 都市画面でUUIの地形アイコンをクリックします。
+3. 陸地・海・山地を合計100％になるよう入力し、必要なら「川を作る」をチェックします。山地は陸地とは別枠です。
+4. 「生成」でパネルに候補を表示します。気に入るまで繰り返せます。この段階ではゲーム内の地形は変更しません。
+5. 「作成」で候補を反映し、海・湖・川の水を配置します。その後、通常のゲーム保存を使ってください。
+言語はMODのオプション「Language / 言語」で日本語・Englishを即時に切り替えられます。日本語・英語は一つのMODに統合されています。
+
+主な機能
+・割合に基づくランダム地形とプレビュー。
+・川の両端をマップ端・湖・海へ接続。海底・湖底には川を掘りません。
+・正方形グリッドを自動検出。HundredTilesの1201×1201用座標に対応する処理を含みます。領域拡張そのものは行いません。
+・作成時に道路・線路・護岸・堤防・運河・壁・ダム・建物を撤去。水域の樹木を削除し、陸地の樹木を新しい高さへ合わせます。
+・砂・荒地の見た目を草地に切り替えます。水辺・水底にも適用され、この描画設定はセーブには保存されません。
+
+注意
+街を建設する前に使用してください。外部への道路・鉄道接続も削除し、自動で作り直しません。「元の地形に戻す」は地形・水面等を戻しますが、撤去した構造物・樹木は復元しません。マップエディター、セーブのロード、シナリオにはUIを登録しません。川を追加すると面積比率は変わり、陸上区間がなければ川は作られません。水面は反映後も通常のシミュレーションに従います。
+開発版です。ビルド・自動チェックは実施済みですが、実ゲーム内の最新挙動や全MODとの互換性は未確認です。サムネイルは宣伝用イラストで、実際のゲーム画面ではありません。
+
+【English】
+Random Map Studio is a Cities: Skylines 1 mod for choosing random terrain after starting a new game. Set land, sea and mountain percentages, with an optional river.
+
+How to use
+1. Enable this mod and Unified UI. Choose a map under New Game and press Start.
+2. In the city view, click the terrain icon in UUI.
+3. Enter percentages totaling 100%. Mountains are separate from land. Optionally enable Add a river.
+4. Click Generate to preview a candidate in the panel. Repeat until satisfied. Generate does not change the game world.
+5. Click Create to apply the candidate and initialize water in seas, lakes and rivers. Save using the normal game save menu.
+Switch instantly between Japanese and English in the mod's Language option. One mod package includes both languages.
+
+Features
+Random terrain and previews; rivers ending at map edges or water bodies without carving through sea/lake beds; automatic square-grid detection with coordinate handling for HundredTiles' 1201 x 1201 terrain. This mod does not expand the map itself.
+Create removes roads, rail, quays, flood walls, canals, walls, dams and buildings. Trees in water are removed; land trees are aligned to the new ground. Sand and ruined-ground textures are displayed as grass, including shorelines and seabeds; this visual setting is not saved.
+
+Important
+Use before building a city. Road/rail outside connections are removed and are not rebuilt. Restore original terrain restores terrain and water, but NOT removed structures or trees. The UI is enabled only for New Game, not loaded saves, editors or scenarios. Rivers change the resulting area ratios and may be omitted if no land reach exists. Water continues to follow the normal simulation after initialization.
+Development build: compilation and automated checks passed, but current in-game behavior and compatibility with every mod remain unverified. Thumbnail is promotional artwork, not a gameplay screenshot.

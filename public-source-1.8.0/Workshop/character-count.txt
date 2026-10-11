@@ -1,0 +1,1 @@
+Japanese + English description: 2901 Unicode characters, including spaces and newlines. Limit: 4000.
